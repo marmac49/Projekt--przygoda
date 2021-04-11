@@ -1,14 +1,15 @@
 library(shiny)
 
 shinyUI(fluidPage(
-  titlePanel("Moja pierwsza aplikacja"),
+  titlePanel("Przygoda Rycerza Kałasznikowa"),
   sidebarLayout(
     sidebarPanel(
-      p("Tutaj jest lewy panel")
+      p("Start")
     ),
     mainPanel(
       br(),
-      p("Tutaj jest prawy panel")
+      p("Wyjście")
     )
   )
 ))
+
